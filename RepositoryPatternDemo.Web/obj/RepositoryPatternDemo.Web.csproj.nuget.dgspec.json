@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\RepositoryPatternDemo.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\RepositoryPatternDemo.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\RepositoryPatternDemo.BLL.csproj",
+        "projectName": "RepositoryPatternDemo.BLL",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\RepositoryPatternDemo.BLL.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj"
+              },
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\RepositoryPatternDemo.Model.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\RepositoryPatternDemo.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj",
+        "projectName": "RepositoryPatternDemo.Common",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj",
+        "projectName": "RepositoryPatternDemo.DAL",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj"
+              },
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\RepositoryPatternDemo.Entity.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\RepositoryPatternDemo.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\RepositoryPatternDemo.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\RepositoryPatternDemo.Entity.csproj",
+        "projectName": "RepositoryPatternDemo.Entity",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\RepositoryPatternDemo.Entity.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\RepositoryPatternDemo.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\RepositoryPatternDemo.Model.csproj",
+        "projectName": "RepositoryPatternDemo.Model",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\RepositoryPatternDemo.Model.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\RepositoryPatternDemo.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\RepositoryPatternDemo.Web.csproj",
+        "projectName": "RepositoryPatternDemo.Web",
+        "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\RepositoryPatternDemo.Web.csproj",
+        "packagesPath": "C:\\Users\\ravan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ravan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\RepositoryPatternDemo.BLL.csproj": {
+                "projectPath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.BLL\\RepositoryPatternDemo.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
