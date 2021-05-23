@@ -1,12 +1,17 @@
 namespace RepositoryPatternDemo.Web
-{    
+{
+    using AutoMapper;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using RepositoryPatternDemo.BLL.BusinessServices.ProductService;
+    using RepositoryPatternDemo.BLL.Mappings;
     using RepositoryPatternDemo.DAL.DBContext;
+    using RepositoryPatternDemo.DAL.Repositories;
+    using RepositoryPatternDemo.DAL.UnitOfWork;
 
     public class Startup
     {
@@ -21,6 +26,23 @@ namespace RepositoryPatternDemo.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            /*Mappings Start*/
+
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<DomainDataModelMappingProfile>();
+            });
+            services.AddSingleton(mapperConfig.CreateMapper());
+
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddTransient<IProductCategoryRelationRepository, ProductCategoryRelationRepository>();
+            services.AddTransient<IProductService, ProductService>();
+
+            /*Mappings End*/
+
             services.AddControllersWithViews();
         }
 

@@ -1,7 +1,6 @@
-﻿namespace RepositoryPatternDemo.DAL.Repositories.ProductRepository
+﻿namespace RepositoryPatternDemo.DAL.Repositories
 {
     using System.Linq;
-    using RepositoryPatternDemo.DAL.Repositories.BaseRepository;
     using RepositoryPatternDemo.DAL.UnitOfWork;
     using RepositoryPatternDemo.Entity.Entities;    
 

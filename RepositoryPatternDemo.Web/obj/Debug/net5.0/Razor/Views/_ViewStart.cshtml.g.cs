@@ -21,13 +21,13 @@ using RepositoryPatternDemo.Web;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Web\Views\_ViewImports.cshtml"
-using RepositoryPatternDemo.Web.Models;
+using RepositoryPatternDemo.Web.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2a5e3eb830bb7c154e94bc164acfc824935ce096", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0a746e069aa8c8fdc124c5a81291da61611cea32", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

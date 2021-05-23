@@ -1,4 +1,4 @@
-﻿namespace RepositoryPatternDemo.DAL.Repositories.BaseRepository
+﻿namespace RepositoryPatternDemo.DAL.Repositories
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;

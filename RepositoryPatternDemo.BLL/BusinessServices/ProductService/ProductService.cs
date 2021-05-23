@@ -3,10 +3,10 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using AutoMapper;
+    using AutoMapper;    
+    using RepositoryPatternDemo.DAL.Repositories;
+    using RepositoryPatternDemo.DAL.UnitOfWork;
     using Dm = Model.Models;
-    using RepositoryPatternDemo.DAL.Repositories.ProductRepository;
-    using RepositoryPatternDemo.DAL.UnitOfWork;    
 
     /// <summary>
     ///  Provides members to manage Product entity.
@@ -19,6 +19,7 @@
         private readonly IMapper mapper;
         private readonly IUnitOfWork unitOfWork;
         private readonly IProductRepository productRepository;
+        private readonly IProductCategoryRelationRepository productCategoryRelationRepository;
 
         #endregion Member Variables
 
@@ -31,11 +32,13 @@
         /// <param name="productRepository">Product repository</param>
         public ProductService(IMapper mapper,
                               IUnitOfWork unitOfWork,
-                              IProductRepository productRepository)
+                              IProductRepository productRepository,
+                              IProductCategoryRelationRepository productCategoryRelationRepository)
         {
             this.mapper = mapper;
             this.unitOfWork = unitOfWork;
             this.productRepository = productRepository;
+            this.productCategoryRelationRepository = productCategoryRelationRepository;
         }
 
         #endregion Constructors
@@ -75,11 +78,25 @@
             return product;
         }
 
+        /// <summary>
+        /// Gets Product Relations.
+        /// </summary>
+        /// <returns>List of Product Relations</returns>
+        public List<Dm.ProductCategoryRelation> GetProductCategoryRelations()
+        {
+            var productCategoryRelations = productCategoryRelationRepository.GetQueryableProductCategoryRelations(false)
+                                                                            .Select(k => new Dm.ProductCategoryRelation 
+                                                                                    { 
+                                                                                        Id = k.Id, 
+                                                                                        ProductName = k.Product.Name, 
+                                                                                        ProductCategoryName = k.ProductCategory.Name 
+                                                                                    })
+                                                                            .ToList();
+            
+            return productCategoryRelations;
+        }
+
         #endregion Public Methods
-
-        #region Private Methods
-
-        #endregion Private Methods
 
         #region IDisposable Support
 

@@ -2,7 +2,7 @@
 {
     using Microsoft.AspNetCore.Mvc;
     using RepositoryPatternDemo.BLL.BusinessServices.ProductService;
-    using RepositoryPatternDemo.Model.Models;
+    using RepositoryPatternDemo.Web.ViewModels;
 
     /// <summary>
     /// Provides members to land application to various page.
@@ -29,23 +29,17 @@
 
         #region Public Methods
 
+        /// <summary>
+        /// Loads Product Category Relations.
+        /// </summary>
+        /// <returns>Index view</returns>
         public IActionResult Index()
         {
-            var products = productService.GetProducts();
+            var productCategoryRelationViewModel = new ProductCategoryRelationViewModel();
 
-            return View(products);
-        }
+            productCategoryRelationViewModel.ProductCategoryRelations = productService.GetProductCategoryRelations();
 
-        public IActionResult GetProductById(int productId)
-        {
-            var product = new Product();
-
-            if (productId > 0)
-            {
-                product = productService.GetProductById(productId);
-            }
-
-            return View(product);
+            return View(productCategoryRelationViewModel);
         }
 
         #endregion Public Methods

@@ -1,7 +1,9 @@
 ﻿namespace RepositoryPatternDemo.Entity.Entities
 {
+    using System.Collections.Generic;
+
     /// <summary>
-    /// Provides various properties for audit logging.
+    /// Provides various properties for Product.
     /// </summary>
     public class Product : BaseEntity
     {
@@ -14,5 +16,14 @@
         /// Gets or sets Name.
         /// </summary>
         public string Name { get; set; }
+
+        #region Relational and Navigation Properties
+
+        /// <summary>
+        /// Gets or sets ProductCategoryRelation collection.
+        /// </summary>
+        public virtual ICollection<ProductCategoryRelation> ProductCategoryRelations { get; set; }
+
+        #endregion Relational and Navigation Properties
     }
 }

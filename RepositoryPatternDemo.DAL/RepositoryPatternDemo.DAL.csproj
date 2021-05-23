@@ -18,8 +18,4 @@
     <ProjectReference Include="..\RepositoryPatternDemo.Entity\RepositoryPatternDemo.Entity.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

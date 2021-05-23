@@ -13,7 +13,6 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\Repos
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\bin\Debug\net5.0\RepositoryPatternDemo.Model.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\bin\Debug\net5.0\ref\RepositoryPatternDemo.Model.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\bin\Debug\net5.0\RepositoryPatternDemo.Model.pdb
-C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.csprojAssemblyReference.cache
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.AssemblyInfoInputs.cache
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.AssemblyInfo.cs
@@ -21,3 +20,4 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\Repos
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\ref\RepositoryPatternDemo.Model.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.pdb
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Model\obj\Debug\net5.0\RepositoryPatternDemo.Model.csprojAssemblyReference.cache

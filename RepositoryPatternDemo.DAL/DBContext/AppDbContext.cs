@@ -1,6 +1,5 @@
 ﻿namespace RepositoryPatternDemo.DAL.DBContext
 {
-   
     using Microsoft.EntityFrameworkCore;
     using RepositoryPatternDemo.DAL.EntityConfigurations;
     using RepositoryPatternDemo.Entity.Entities;
@@ -15,7 +14,7 @@
         /// </summary>
         public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions)
         {
-           
+
         }
 
         /// <summary>
@@ -37,8 +36,11 @@
             if (modelBuilder != null)
             {
                 base.OnModelCreating(modelBuilder);
-                new AuditLogConfiguration(modelBuilder.Entity<AuditLog>().ToTable("AuditLog"));
-                new ProductConfiguration(modelBuilder.Entity<Product>().ToTable("Product"));
+                _ = modelBuilder.Entity<ProductCategoryRelation>().HasIndex(k => new { k.ProductId, k.ProductCategoryId }).HasDatabaseName("IX_ProdCat_ProdId_ProdCatId");
+                _ = new AuditLogConfiguration(modelBuilder.Entity<AuditLog>().ToTable("AuditLog"));
+                _ = new ProductConfiguration(modelBuilder.Entity<Product>().ToTable("Product"));
+                _ = new ProductCategoryConfiguration(modelBuilder.Entity<ProductCategory>().ToTable("ProductCategory"));
+                _ = new ProductCategoryRelationConfiguration(modelBuilder.Entity<ProductCategoryRelation>().ToTable("ProductCategoryRelation"));
             }
         }
     }

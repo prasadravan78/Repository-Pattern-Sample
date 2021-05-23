@@ -21,5 +21,11 @@
         /// <param name="productId">Product id</param>
         /// <returns>Product by Id.</returns>
         Product GetProductById(int productId);
+
+        /// <summary>
+        /// Gets Product Category Relations.
+        /// </summary>
+        /// <returns>List of Product Category Relations</returns>
+        List<ProductCategoryRelation> GetProductCategoryRelations();
     }
 }

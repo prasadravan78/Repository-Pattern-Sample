@@ -13,7 +13,6 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\Repos
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\bin\Debug\net5.0\RepositoryPatternDemo.Common.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\bin\Debug\net5.0\ref\RepositoryPatternDemo.Common.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\bin\Debug\net5.0\RepositoryPatternDemo.Common.pdb
-C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.csprojAssemblyReference.cache
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.AssemblyInfoInputs.cache
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.AssemblyInfo.cs
@@ -21,3 +20,6 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\Repos
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\ref\RepositoryPatternDemo.Common.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.pdb
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.csprojAssemblyReference.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.Resources.Resource.resources
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Common\obj\Debug\net5.0\RepositoryPatternDemo.Common.csproj.GenerateResource.cache

@@ -103,6 +103,115 @@ namespace RepositoryPatternDemo.DAL.Migrations
 
                     b.ToTable("Product");
                 });
+
+            modelBuilder.Entity("RepositoryPatternDemo.Entity.Entities.ProductCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModificationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductCategory");
+                });
+
+            modelBuilder.Entity("RepositoryPatternDemo.Entity.Entities.ProductCategoryRelation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModificationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductCategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductCategoryId");
+
+                    b.HasIndex("ProductId", "ProductCategoryId")
+                        .HasDatabaseName("IX_ProdCat_ProdId_ProdCatId");
+
+                    b.ToTable("ProductCategoryRelation");
+                });
+
+            modelBuilder.Entity("RepositoryPatternDemo.Entity.Entities.ProductCategoryRelation", b =>
+                {
+                    b.HasOne("RepositoryPatternDemo.Entity.Entities.ProductCategory", "ProductCategory")
+                        .WithMany("ProductCategoryRelations")
+                        .HasForeignKey("ProductCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryPatternDemo.Entity.Entities.Product", "Product")
+                        .WithMany("ProductCategoryRelations")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("ProductCategory");
+                });
+
+            modelBuilder.Entity("RepositoryPatternDemo.Entity.Entities.Product", b =>
+                {
+                    b.Navigation("ProductCategoryRelations");
+                });
+
+            modelBuilder.Entity("RepositoryPatternDemo.Entity.Entities.ProductCategory", b =>
+                {
+                    b.Navigation("ProductCategoryRelations");
+                });
 #pragma warning restore 612, 618
         }
     }
