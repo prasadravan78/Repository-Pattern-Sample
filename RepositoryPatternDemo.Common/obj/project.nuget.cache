@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "d832BvFasmNSxxnJVEwQ7eK6owCLVQ1Ezs9jFAeJ/mHCAI8ZE9LCIvsb3hVUa0le7fvTvGedbi/JUO4dNMBD2A==",
+  "dgSpecHash": "AadfQ1oThPPFWs4IFAhFRe6MuuOAiY59LXt3Gm+7p6i/5IlOC7MR2OBGwUEKUbFZPO7oDrFwjg6+EH0qEzTeLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Common\\RepositoryPatternDemo.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
   "logs": []
 }

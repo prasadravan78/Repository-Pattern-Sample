@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aR7I3NZXL62y8rlV4wOPtbT0DkHgHrzFinsd0aeJs++iJ6N2Jl9Ol7iaGmBx4+9l6CGPtRl6fTbIQtSQ8KrDbg==",
+  "dgSpecHash": "cmeSNmDjvLCsio3ZNbAGxYONfWWKznkXOUnrDiNpse7lU2+EbryOZGvTrdnRWh7ViVgJXh7v0AwTa5fVf8cR9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.DAL\\RepositoryPatternDemo.DAL.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,8 @@
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.3.21201.4\\system.collections.immutable.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.3.21201.4\\system.componentmodel.annotations.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

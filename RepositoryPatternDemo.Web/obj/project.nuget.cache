@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Jbr0HofBe+NdsltFkHGo5Sx/fCz3GJyknF5Sff9ncVDKAqe8lXzDTOZ2FRNdDO0ICFjilDrtlBHoANitKaiF+A==",
+  "dgSpecHash": "VBGcrnfHEneDFvqqkX30STSpbUL2X/mi5w8OqpSCmpdlPK2w2LyraNFyrsVTqX7sysD3qO/5eZTzVyLUZubUlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ravan\\Documents\\Learnings\\Dot Net Core\\Code\\RepositoryPatternDemo\\RepositoryPatternDemo.Web\\RepositoryPatternDemo.Web.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,8 @@
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\ravan\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.collections.immutable\\6.0.0-preview.3.21201.4\\system.collections.immutable.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\ravan\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.3.21201.4\\system.componentmodel.annotations.6.0.0-preview.3.21201.4.nupkg.sha512",

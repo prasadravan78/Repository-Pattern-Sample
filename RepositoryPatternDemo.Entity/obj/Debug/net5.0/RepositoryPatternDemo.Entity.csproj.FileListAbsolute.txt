@@ -11,7 +11,6 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo.Web\R
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo.Web\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.pdb
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\bin\Debug\net5.0\RepositoryPatternDemo.Entity.deps.json
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\bin\Debug\net5.0\RepositoryPatternDemo.Entity.dll
-C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\bin\Debug\net5.0\ref\RepositoryPatternDemo.Entity.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\bin\Debug\net5.0\RepositoryPatternDemo.Entity.pdb
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.AssemblyInfoInputs.cache
@@ -20,4 +19,5 @@ C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\Repos
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\ref\RepositoryPatternDemo.Entity.dll
 C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.pdb
-C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.csprojAssemblyReference.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\RepositoryPatternDemo.Entity.csproj.AssemblyReference.cache
+C:\Users\ravan\Documents\Learnings\Dot Net Core\Code\RepositoryPatternDemo\RepositoryPatternDemo.Entity\obj\Debug\net5.0\refint\RepositoryPatternDemo.Entity.dll
