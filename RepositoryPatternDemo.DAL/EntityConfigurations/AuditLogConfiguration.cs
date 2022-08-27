@@ -6,17 +6,14 @@
     /// <summary>
     /// Provides Code first entity configuration for AuditLog.
     /// </summary>
-    public class AuditLogConfiguration 
+    public class AuditLogConfiguration
     {
         /// <summary>
-        /// Holds entity configuration for AuditLog.
+        /// Initializes a new instance of the <see cref="AuditLogConfiguration"/> class.
         /// </summary>
+        /// <param name="entityTypeBuilder">Injects AuditLog dependancy.</param>
         public AuditLogConfiguration(EntityTypeBuilder<AuditLog> entityTypeBuilder)
         {
-            #region Table, Key and Column Configuration
-
-            //entityTypeBuilder. ToTable("AuditLog", "dbo");
-
             entityTypeBuilder.HasKey(c => c.Id);
 
             entityTypeBuilder.Property(c => c.Id)
@@ -59,8 +56,6 @@
             entityTypeBuilder.Property(c => c.Action)
                 .HasMaxLength(100)
                 ;
-
-            #endregion Table, Key and Column Configuration
         }
     }
 }

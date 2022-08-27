@@ -1,21 +1,24 @@
-﻿namespace RepositoryPatternDemo.Common.Constants
+﻿namespace RepositoryPatternDemo.Common
 {
     /// <summary>
     /// Defines constants being used across application.
     /// </summary>
     public static class Constants
     {
-        #region Error
-
         /// <summary>
-        /// Contains constants for User.
+        /// Contains constants for AppError.
         /// </summary>
         public static class AppError
         {
-            public const int ERROR_UNIQUE_CONSTRAINT = 2601;
-            public const string ERROR_CONCURRENCY = "DbConcurrencyError";
-        }
+            /// <summary>
+            /// Gets ERRORUNIQUECONSTRAINT.
+            /// </summary>
+            public const int ERRORUNIQUECONSTRAINT = 2601;
 
-        #endregion Error
+            /// <summary>
+            /// Gets ERRORCONCURRENCY.
+            /// </summary>
+            public const string ERRORCONCURRENCY = "DbConcurrencyError";
+        }
     }
 }

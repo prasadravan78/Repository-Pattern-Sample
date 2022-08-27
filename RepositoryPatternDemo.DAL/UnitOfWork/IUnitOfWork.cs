@@ -40,5 +40,6 @@
         /// Comments all changes in current database transaction.
         /// </summary>
         void Commit();
+        void Dispose();
     }
 }
